@@ -37,23 +37,21 @@ header{
 }
 /*==============ME=============*/
 .me{
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
     width: 22rem;
-    height: 30rem;
+    height: 70rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
+    /* margin-top: 4rem; */
+    /* border-radius: 12rem 12rem 0 0; */
+    /* overflow: hidden; */
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 
 
 }
 .me img{
-    border-top-left-radius: 10rem;
-  
-    border-top-right-radius: 10rem;
+   border-radius: 10rem;
 }
 /*===========SCROLL_DOWN================*/
 .scroll_down{

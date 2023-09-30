@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/image1.jpg'
-import IMG2 from '../../assets/image2.jpg'
+import IMG1 from '../../assets/image1.png'
+import IMG2 from '../../assets/image2.png'
 import IMG3 from '../../assets/image3.jpg'
 import IMG4 from '../../assets/image4.jpg'
 import IMG5 from '../../assets/image5.jpg'
@@ -12,16 +12,16 @@ const data=[
   {
     id:1,
     image:IMG1,
-    title:'Crypto Currency Dashboard & Financial Visualization',
-    github:'http://github.com',
-    demo:'https://dribbble.com/shorts/16673715-Crypto-currency-dashboard-and-financial-data-visualization'
+    title:'Online tour booking webisite',
+    github:'https://github.com/Louange123/dreamdiscover',
+    demo:'https://dreamdiscover.onrender.com '
 },
 {
   id:2,
   image:IMG2,
-  title:'Charts templates & information in Figma',
-  github:'http://github.com',
-  demo:'https://dribbble.com/shorts/16580766-Orion-UI-kit-Charts-templates-infographics-in- Figma'
+  title:'Figma dashboard UI kit for booking apps and well functioning web',
+  github:'https://github.com/Louange123/tourSITE',
+  demo:'https://toursite12.onrender.com  '
 },
 {
   id:3,
