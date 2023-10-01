@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    color: white;
 }
 .experience_container>div{
     background: var(--color-bg-variant);
@@ -10,13 +11,15 @@
     border: 1px solid transparent;
     transition: var(--transition);
     margin-top: 20vh; 
+    
 
 }
 
 .experience_container>div:hover{
-    background: transparent;
+
     border-color: var(--color-primary-variant);
     cursor: default;
+    
 }
 
 .experience_container>div h3{
@@ -33,6 +36,11 @@
 .experience_details{
     display: flex;
     gap: 1rem;
+    color: rgb(194, 184, 184);
+
+}
+.experience_details h4{
+    color: white;
 }
 .experience_details-icon{
 margin-top: 6px;

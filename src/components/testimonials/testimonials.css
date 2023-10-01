@@ -1,6 +1,7 @@
 .container.testimonials_container{
 width: 40%;
 padding-bottom: 4rem;
+
 }
 
 .client_avatar{
@@ -19,6 +20,7 @@ padding-bottom: 4rem;
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    
 }
 
 .client_review{
@@ -27,6 +29,10 @@ padding-bottom: 4rem;
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
+    color: white;
+}
+.client_name{
+    color: var(--color-primary);
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet{

@@ -16,16 +16,19 @@
     display: grid;
     place-items: center;
 }
+h5{
+    color: white;
+}
 
 .about_me-image{
-    border-radius: 50rem;
+    border-radius: 30rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    /* transform: rotate(10deg); */
+    /* transition: var(--transition); */
 }
-.about_me-image:hover{
+/* .about_me-image:hover{
     transform: rotate(0);
-}
+} */
 .about_cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -57,7 +60,7 @@
 }
 .about_card small{
     font-size: 0.7rem;
-    color:var(--color-light)
+    color:white;
 }
 .about_content p{
     margin: 2rem 0 2.6rem;

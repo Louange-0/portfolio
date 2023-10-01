@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    color: white;
 }
 .service{
     background: var(--color-bg-variant);
@@ -11,11 +12,11 @@
     transition: var(--transition);
 }
 
-.service:hover{
+/* .service:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
-}
+} */
 .service_head{
     background: var(--color-primary);
     padding: 2rem;

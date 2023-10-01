@@ -29,35 +29,14 @@ const data=[
   title:'Figma dashboard UI kit for data design web apps',
   github:'http://github.com',
   demo:'https://dribbble.com/shorts/17290917-Eclipse-Figma-dashboard-UI-Kit-for-data-design-web-apps'
-},
-{
-  id:4,
-  image:IMG4,
-  title:'Maintain tasks and tracking progress',
-  github:'http://github.com',
-  demo:'https://dribbble.com/shorts/16955822-Maintain-tasks-and-tracking-progress'
-},
-{
-  id:5,
-  image:IMG5,
-  title:'Charts templates & infographics in Figma',
-  github:'http://github.com',
-  demo:'https://dribbble.com/shorts/16541280-Orio-UI-kit-CHarts-templates-infographics-in-Figma'
-},
-{
-  id:6,
-  image:IMG6,
-  title:'Charts templates & infographics in Figma',
-  github:'http://github.com',
-  demo:'https://dribbble.com/shorts/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-},
+}
 ]
 
 const portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Browse my recent</h5>
+      <h2>Projects</h2>
 
       <div className="container portfolio_container">
         {
