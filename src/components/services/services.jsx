@@ -42,37 +42,6 @@ const services = () => {
         </article>
         <article className="service">
           <div className="service_head">
-            <h3>Mobile App Development</h3>
-          </div>
-          <ul className='service_list'>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>Planning and Ideation</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>UI/UX Design</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>Maintenance and Updates</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>Backend Development</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>Testing and Quality Assurance</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>Deployment and App Store Optimization</p>
-            </li>
-          </ul>
-        </article>
-        <article className="service">
-          <div className="service_head">
             <h3>E-commerce Development</h3>
           </div>
           <ul className='service_list'>
