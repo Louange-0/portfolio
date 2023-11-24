@@ -45,7 +45,7 @@ h5{
 }
 
 .about_card:hover{
-    background: transparent;
+    background: var(--color-light);
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -58,10 +58,12 @@ h5{
 .about_card h5{
     font-size: 0.95rem;
 }
+
 .about_card small{
     font-size: 0.7rem;
     color:white;
 }
+
 .about_content p{
     margin: 2rem 0 2.6rem;
     color: var(--color-light);

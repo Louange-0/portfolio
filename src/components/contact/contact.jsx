@@ -5,27 +5,26 @@ import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
 
-
-
-
 const Contact = () => {
-  const form =useRef();
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_lbqkjrc', 'template_07xbmri', form.current, 'dQj1_9-lctw25zWMd')
-
-    e.target.reset()
       .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+        console.log(result.text);
+      })
+      .catch((error) => {
+        console.log(error.text);
       });
+
+    form.current.reset();
   };
+
   return (
     <section id='contact'>
-      <h5>Get In Touch  </h5>
+      <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact_container">
@@ -57,7 +56,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

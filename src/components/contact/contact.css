@@ -11,9 +11,18 @@
     gap: 1.2rem;
     
 }
+.ny{
+    color: black;
+}
+.contact_option h5{
+    cursor: pointer;
+    color: black;
+}
+
+
 
 .contact_option{
-    background: var(--color-bg-variant);
+    background: var( --color-primary);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -23,8 +32,9 @@
 }
 
 .contact_option:hover{
-    background: transparent;
+    /* background: transparent; */
     border-color: var(--color-primary-variant);
+    color: black;
 }
 
 .contact_option-icon{
@@ -50,7 +60,7 @@ input,textarea{
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white);
+    
 }
 
 
